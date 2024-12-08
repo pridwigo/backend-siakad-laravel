@@ -21,6 +21,7 @@ class UserSeeder extends Seeder
             'email' => 'pridwigo@admin.com',
             'email_verified_at' => now(),
             'password' => Hash::make('dwi123123'),
+            'roles' => 'admin',
         ]);
     }
 }
